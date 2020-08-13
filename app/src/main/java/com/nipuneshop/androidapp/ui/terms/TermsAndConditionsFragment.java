@@ -17,9 +17,12 @@ import com.nipuneshop.androidapp.viewmodel.shop.ShopViewModel;
 import com.nipuneshop.androidapp.viewobject.Shop;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.ViewModelProviders;
+
+import java.util.Objects;
 
 public class TermsAndConditionsFragment extends PSFragment {
 
@@ -42,6 +45,14 @@ public class TermsAndConditionsFragment extends PSFragment {
         binding = new AutoClearedValue<>(this, dataBinding);
 
         return binding.get().getRoot();
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        binding.get().doneTextView.setOnClickListener(v -> {
+            Objects.requireNonNull(getActivity()).onBackPressed();
+        });
     }
 
     @Override
@@ -151,4 +162,5 @@ public class TermsAndConditionsFragment extends PSFragment {
         }
 
     }
+
 }

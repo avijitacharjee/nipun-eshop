@@ -35,9 +35,16 @@
                 tools:text="Terms and conditions" />
 
             <TextView
+                android:id="@+id/doneTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
+                android:padding="20dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:elevation="5dp"
+                android:outlineProvider="bounds"
                 android:text="Done"
                 app:layout_constraintTop_toBottomOf="@id/termsAndConditionTextView"
                 app:layout_constraintBottom_toBottomOf="parent"
