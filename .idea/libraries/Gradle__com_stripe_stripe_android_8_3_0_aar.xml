@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.stripe:stripe-android:8.3.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32145b3abdbf132ed247766bac7ceb17/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32145b3abdbf132ed247766bac7ceb17/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32145b3abdbf132ed247766bac7ceb17/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32145b3abdbf132ed247766bac7ceb17/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.stripe/stripe-android/8.3.0/4f63c9193c59d996b68a7caecc1160058eb0829/stripe-android-8.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

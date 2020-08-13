@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "600852578217",
+    "firebase_url": "https://nipuneshop-4c1a5.firebaseio.com",
+    "project_id": "nipuneshop-4c1a5",
+    "storage_bucket": "nipuneshop-4c1a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600852578217:android:904b36389920611838ceb8",
+        "android_client_info": {
+          "package_name": "com.nipuneshop.androidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600852578217-7rd0r4l153od29u6b9rpflrqfgbmc7ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz58gZfvWDntpX8JBbg4IoRoPBQra1XZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600852578217-7rd0r4l153od29u6b9rpflrqfgbmc7ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
