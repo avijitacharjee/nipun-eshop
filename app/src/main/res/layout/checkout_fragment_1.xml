@@ -6,6 +6,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="visible"
         android:background="@color/md_grey_400">
 
         <androidx.core.widget.NestedScrollView
@@ -623,6 +624,7 @@
                     android:id="@+id/card2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:visibility="gone"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/shippingCardView">
@@ -631,7 +633,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/md_white_1000"
-                        tools:visibility="gone">
+                        tools:visibility="visible">
 
                         <TextView
                             android:id="@+id/card2PostalTitleTextView"
