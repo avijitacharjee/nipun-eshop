@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.databinding.DataBindingUtil;
+import androidx.lifecycle.ViewModelProviders;
 
 import com.facebook.CallbackManager;
 import com.facebook.FacebookSdk;
@@ -26,6 +27,9 @@ import com.nipuneshop.androidapp.ui.common.PSFragment;
 import com.nipuneshop.androidapp.utils.AutoClearedValue;
 import com.nipuneshop.androidapp.utils.PSDialogMsg;
 import com.nipuneshop.androidapp.utils.Utils;
+import com.nipuneshop.androidapp.viewmodel.user.UserViewModel;
+
+import java.util.Random;
 
 public class PhoneLoginFragment extends PSFragment {
 
@@ -52,7 +56,7 @@ public class PhoneLoginFragment extends PSFragment {
 
     //endregion
 
-
+    private UserViewModel viewModel ;
     //region Override Methods
 
     @Override
@@ -138,19 +142,34 @@ public class PhoneLoginFragment extends PSFragment {
                 number = binding.get().phoneEditText.getText().toString();
                 userName = binding.get().nameEditText.getText().toString();
                 PhoneLoginFragment.this.validNo(number);
+                String otp = getRandomNumberString();
+                viewModel.sendSMS(number,otp).observe(this,smsApiResponse -> {
 
-                Utils.navigateAfterPhoneVerify(getActivity(),navigationController,number,userName);
+                });
+                Utils.navigateAfterPhoneVerify(getActivity(),navigationController,number,userName,otp);
 
-                Toast.makeText(PhoneLoginFragment.this.getActivity(), number, Toast.LENGTH_LONG).show();
+                //Toast.makeText(PhoneLoginFragment.this.getActivity(), number, Toast.LENGTH_LONG).show();
             }
         });
 
 
     }
 
+
+
+    public static String getRandomNumberString() {
+        // It will generate 6 digit random Number.
+        // from 0 to 999999
+        Random rnd = new Random();
+        int number = rnd.nextInt(999999);
+
+        // this will convert any number sequence into 6 character.
+        return String.format("%06d", number);
+    }
+
     @Override
     protected void initViewModels() {
-
+        viewModel = ViewModelProviders.of(this,viewModelFactory).get(UserViewModel.class);
     }
 
     @Override

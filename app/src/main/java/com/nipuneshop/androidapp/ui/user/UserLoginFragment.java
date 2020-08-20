@@ -16,6 +16,7 @@ import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
 import com.facebook.GraphRequest;
 import com.facebook.LoggingBehavior;
+import com.facebook.appevents.AppEventsLogger;
 import com.facebook.login.LoginResult;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -50,6 +51,7 @@ import androidx.lifecycle.ViewModelProviders;
 import java.util.Collections;
 
 import static androidx.constraintlayout.motion.widget.MotionScene.TAG;
+import static com.facebook.FacebookSdk.getApplicationContext;
 
 
 /**
@@ -163,6 +165,7 @@ public class UserLoginFragment extends PSFragment {
 
         if (getActivity() != null) {
             mGoogleSignInClient = GoogleSignIn.getClient(getActivity(), googleSignInOptions);
+            Log.d(TAG, "initUIAndActions: "+mGoogleSignInClient.toString());
         }
         //end
 

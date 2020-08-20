@@ -4,9 +4,9 @@
     <!-- Key to update -->
     <!--===============-->
 
-    <string name="facebook_app_id" translatable="false">0000000000000000</string>
+    <string name="facebook_app_id" translatable="false">713437499286290</string>
 
-    <string name="fb_login_protocol_scheme" translatable="false">fb0000000000000000</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb713437499286290</string>
 
     <string name="stripe_publish_key" translatable="false">pk_0000_000000000000000000000000</string>
 

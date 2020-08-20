@@ -8,6 +8,9 @@ package com.nipuneshop.androidapp.utils;
 
 public interface Constants {
 
+
+    String FB_HASH="+J+3yf/mrgPgKeg1llIttpSjcws=";
+
     //region General
 
     String EMPTY_STRING = "";
@@ -136,6 +139,7 @@ public interface Constants {
     String USER_NAME = "USER_NAME";
     String USER_EMAIL = "USER_EMAIL";
     String USER_PASSWORD = "password";
+    String OTP = "otp";
 
     String USER_NO_USER = "nologinuser";
 

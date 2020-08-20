@@ -102,7 +102,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="I:\Project Materials\Android\Nipun eshop\2.png" />
+                                                <entry key="imagePath" value="I:\Project Materials\Android\Nipun eshop\3.png" />
                                                 <entry key="scalingPercent" value="123" />
                                               </map>
                                             </option>
@@ -137,7 +137,7 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="outputName" value="icon" />
+                                      <entry key="outputName" value="main_icon" />
                                     </map>
                                   </option>
                                 </PersistentState>

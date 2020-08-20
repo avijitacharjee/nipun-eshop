@@ -12,11 +12,11 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:contentDescription="@string/app__app_name"
             android:scaleType="fitCenter"
-            android:src="@drawable/ic_launcher"
+            android:src="@mipmap/main_icon_foreground"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"

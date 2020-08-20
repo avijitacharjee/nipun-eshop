@@ -7,11 +7,13 @@ import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 
 import com.nipuneshop.androidapp.Config;
+import com.nipuneshop.androidapp.api.ApiResponse;
 import com.nipuneshop.androidapp.repository.user.UserRepository;
 import com.nipuneshop.androidapp.utils.AbsentLiveData;
 import com.nipuneshop.androidapp.utils.Constants;
 import com.nipuneshop.androidapp.utils.Utils;
 import com.nipuneshop.androidapp.viewobject.ApiStatus;
+import com.nipuneshop.androidapp.viewobject.Sms;
 import com.nipuneshop.androidapp.viewobject.User;
 import com.nipuneshop.androidapp.viewobject.UserLogin;
 import com.nipuneshop.androidapp.viewobject.common.Resource;
@@ -386,6 +388,9 @@ public class UserViewModel extends ViewModel {
         resentCodeTmpDataHolder tmpDataHolder = new resentCodeTmpDataHolder(userEmail);
 
         this.resentVerifyCodeObj.setValue(tmpDataHolder);
+    }
+    public MutableLiveData<ApiResponse<Sms>> sendSMS(String phone,String code){
+        return this.repository.sendSms(phone,code);
     }
 
     public LiveData<Resource<Boolean>> getResentVerifyCodeData() {

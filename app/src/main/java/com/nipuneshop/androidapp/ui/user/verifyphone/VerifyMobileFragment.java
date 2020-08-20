@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.ViewModelProviders;
@@ -27,6 +28,7 @@ import com.nipuneshop.androidapp.utils.Constants;
 import com.nipuneshop.androidapp.utils.PSDialogMsg;
 import com.nipuneshop.androidapp.utils.Utils;
 import com.nipuneshop.androidapp.viewmodel.user.UserViewModel;
+import com.nipuneshop.androidapp.viewobject.User;
 
 import java.util.concurrent.TimeUnit;
 
@@ -41,7 +43,7 @@ public class VerifyMobileFragment extends PSFragment {
 
     private PSDialogMsg psDialogMsg;
 
-    private String userPhoneNo, userName, phoneUserId, token;
+    private String userPhoneNo, userName, phoneUserId, token,otp;
     private FirebaseAuth mAuth;
     private String mVerificationId;
 
@@ -69,13 +71,15 @@ public class VerifyMobileFragment extends PSFragment {
         if (getActivity() != null && getActivity().getIntent() != null) {
             userPhoneNo = getActivity().getIntent() .getStringExtra(Constants.USER_PHONE);
             userName = getActivity().getIntent() .getStringExtra(Constants.USER_NAME);
-
+            otp = getActivity().getIntent() .getStringExtra(Constants.OTP);
             if (getArguments() != null) {
                 userPhoneNo = getArguments().getString(Constants.USER_PHONE);
                 userName = getArguments().getString(Constants.USER_NAME);
+                otp = getArguments().getString(Constants.OTP);
             }
 
         }
+
 
         sendVerificationCode(userPhoneNo);
 
@@ -150,20 +154,12 @@ public class VerifyMobileFragment extends PSFragment {
         binding.get().phoneTextView.setText(userPhoneNo);
 
         binding.get().submitButton.setOnClickListener(v -> {
-
-            String code = binding.get().enterCodeEditText.getText().toString().trim();
-            if (code.isEmpty() || code.length() < 6) {
-                binding.get().enterCodeEditText.setError("Enter valid code");
-                binding.get().enterCodeEditText.requestFocus();
-                return;
+            if(otp.equals(binding.get().enterCodeEditText.getText().toString())){
+                phoneUserId= otp;
+                userViewModel.setPhoneLoginUser(phoneUserId,userName,userPhoneNo,token);
             }
-
-//                verifying the code entered manually
-            verifyVerificationCode(code);
-
         });
     }
-
     private void verifyVerificationCode(String code) {
         //creating the credential
         PhoneAuthCredential credential = PhoneAuthProvider.getCredential(mVerificationId, code);
@@ -181,7 +177,7 @@ public class VerifyMobileFragment extends PSFragment {
                                 //verification successful we will start the profile activity
                                 if (task.getResult() != null && task.getResult().getUser() != null) {
                                     phoneUserId = task.getResult().getUser().getUid();
-                                    userViewModel.setPhoneLoginUser(phoneUserId, userName, userPhoneNo, token);
+                                    userViewModel.setPhoneLoginUser(phoneUserId, userName, userPhoneNo, token );
                                 }
                             } catch (Exception e1) {
                                 // Error occurred while creating the File
@@ -268,6 +264,11 @@ public class VerifyMobileFragment extends PSFragment {
 
         });
 
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
     }
 }
 

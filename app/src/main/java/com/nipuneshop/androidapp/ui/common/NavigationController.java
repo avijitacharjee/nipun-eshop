@@ -828,7 +828,7 @@ public class NavigationController {
         activity.startActivity(intent);
     }
 
-    public void navigateToPhoneVerifyFragment(MainActivity mainActivity, String number, String userName) {
+    public void navigateToPhoneVerifyFragment(MainActivity mainActivity, String number, String userName,String otp) {
         if (checkFragmentChange(RegFragments.HOME_PHONE_VERIFY)) {
             try {
                 VerifyMobileFragment fragment = new VerifyMobileFragment();
@@ -839,6 +839,7 @@ public class NavigationController {
                 Bundle args = new Bundle();
                 args.putString(Constants.USER_PHONE, number);
                 args.putString(Constants.USER_NAME, userName);
+                args.putString("otp",otp);
                 fragment.setArguments(args);
             } catch (Exception e) {
                 Utils.psErrorLog("Error! Can't replace fragment.", e);

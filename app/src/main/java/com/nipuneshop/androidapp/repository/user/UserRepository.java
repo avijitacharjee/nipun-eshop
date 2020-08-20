@@ -1,10 +1,13 @@
 package com.nipuneshop.androidapp.repository.user;
 
+import android.util.Log;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
+import com.google.gson.Gson;
 import com.nipuneshop.androidapp.AppExecutors;
 import com.nipuneshop.androidapp.Config;
 import com.nipuneshop.androidapp.api.ApiResponse;
@@ -16,6 +19,7 @@ import com.nipuneshop.androidapp.repository.common.PSRepository;
 import com.nipuneshop.androidapp.utils.AbsentLiveData;
 import com.nipuneshop.androidapp.utils.Utils;
 import com.nipuneshop.androidapp.viewobject.ApiStatus;
+import com.nipuneshop.androidapp.viewobject.Sms;
 import com.nipuneshop.androidapp.viewobject.User;
 import com.nipuneshop.androidapp.viewobject.UserLogin;
 import com.nipuneshop.androidapp.viewobject.common.Resource;
@@ -30,6 +34,8 @@ import javax.inject.Singleton;
 import okhttp3.MediaType;
 import okhttp3.MultipartBody;
 import okhttp3.RequestBody;
+import retrofit2.Call;
+import retrofit2.Callback;
 import retrofit2.Response;
 
 /**
@@ -61,6 +67,33 @@ public class UserRepository extends PSRepository{
 
 
     //region User Repository Functions for ViewModel
+
+    /**
+     * Function to send SMS
+     *
+     * @param phone the number to send sms
+     * @param otp the code that will identify
+     * @return response from server
+     */
+    public MutableLiveData<ApiResponse<Sms>> sendSms(String phone, String otp){
+        MutableLiveData<ApiResponse<Sms>> result = new MutableLiveData<>();
+        psApiService.sendSms("http://sms.tense.com.bd/api-sendsms?user=nipun&password=01625346644&campaign=SmsCamp&number="
+                +phone+"&text="+otp).enqueue(new Callback<ApiResponse<Sms>>() {
+            @Override
+            public void onResponse(Call<ApiResponse<Sms>> call, Response<ApiResponse<Sms>> response) {
+                if(response.isSuccessful()){
+                    Utils.psLog(new Gson().toJson(response.body()));
+                    result.setValue(response.body());
+                }
+            }
+
+            @Override
+            public void onFailure(Call<ApiResponse<Sms>> call, Throwable t) {
+                Log.d("d", "onFailure: "+t);
+            }
+        });
+        return result;
+    }
 
     /**
      * Function to login

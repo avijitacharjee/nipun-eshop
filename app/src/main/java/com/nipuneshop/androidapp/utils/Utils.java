@@ -1094,9 +1094,9 @@ public class Utils {
 
     }
 
-    public static void navigateAfterPhoneVerify(Activity activity, NavigationController navigationController,String number,String username){
+    public static void navigateAfterPhoneVerify(Activity activity, NavigationController navigationController,String number,String username,String otp){
         if(activity instanceof  MainActivity) {
-            navigationController.navigateToPhoneVerifyFragment((MainActivity) activity,number, username);
+            navigationController.navigateToPhoneVerifyFragment((MainActivity) activity,number, username,otp);
         }else {
 
             navigationController.navigateToPhoneVerifyActivity(activity,number,username);

@@ -19,6 +19,7 @@ import com.nipuneshop.androidapp.viewobject.ShippingCost;
 import com.nipuneshop.androidapp.viewobject.ShippingMethod;
 import com.nipuneshop.androidapp.viewobject.ShippingCostContainer;
 import com.nipuneshop.androidapp.viewobject.Shop;
+import com.nipuneshop.androidapp.viewobject.Sms;
 import com.nipuneshop.androidapp.viewobject.SubCategory;
 import com.nipuneshop.androidapp.viewobject.TransactionDetail;
 import com.nipuneshop.androidapp.viewobject.TransactionHeaderUpload;
@@ -28,7 +29,9 @@ import com.nipuneshop.androidapp.viewobject.User;
 import java.util.List;
 
 import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
 
+import okhttp3.Callback;
 import okhttp3.MultipartBody;
 import okhttp3.RequestBody;
 import retrofit2.Call;
@@ -41,13 +44,16 @@ import retrofit2.http.Multipart;
 import retrofit2.http.POST;
 import retrofit2.http.Part;
 import retrofit2.http.Path;
+import retrofit2.http.Url;
 
 /**
  * REST API access points
  */
 public interface PSApiService {
 
-
+    //For sms
+    @GET
+    Call<ApiResponse<Sms>> sendSms(@Url String url);
     //region Products
 
     //region Get Product Collection
