@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.braintreepayments.api:drop-in:3.7.1@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f75e858b50beb0f6baa459cafd18521/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3bab373c5564830de4e7074f9526293/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f75e858b50beb0f6baa459cafd18521/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f75e858b50beb0f6baa459cafd18521/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4f75e858b50beb0f6baa459cafd18521/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3bab373c5564830de4e7074f9526293/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3bab373c5564830de4e7074f9526293/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3bab373c5564830de4e7074f9526293/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

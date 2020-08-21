@@ -26,7 +26,9 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationItemView;
 import com.google.android.material.bottomnavigation.BottomNavigationMenuView;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.nipuneshop.androidapp.databinding.ActivityMainBinding;
 import com.nipuneshop.androidapp.ui.common.NavigationController;
 import com.nipuneshop.androidapp.ui.common.PSAppCompactActivity;
@@ -106,8 +108,10 @@ public class MainActivity extends PSAppCompactActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTheme(R.style.Base_PSTheme);
 
+        setTheme(R.style.Base_PSTheme);
+        FirebaseApp.initializeApp(this);
+        FirebaseMessaging.getInstance().subscribeToTopic("/topics/a");
         super.onCreate(savedInstanceState);
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);

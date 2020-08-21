@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "600852578217",
-    "firebase_url": "https://nipuneshop-4c1a5.firebaseio.com",
-    "project_id": "nipuneshop-4c1a5",
-    "storage_bucket": "nipuneshop-4c1a5.appspot.com"
+    "project_number": "754616422456",
+    "firebase_url": "https://nipuneshop-47a33.firebaseio.com",
+    "project_id": "nipuneshop-47a33",
+    "storage_bucket": "nipuneshop-47a33.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:600852578217:android:904b36389920611838ceb8",
+        "mobilesdk_app_id": "1:754616422456:android:27419a0389c47d1579d6cd",
         "android_client_info": {
           "package_name": "com.nipuneshop.androidapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "600852578217-7rd0r4l153od29u6b9rpflrqfgbmc7ol.apps.googleusercontent.com",
+          "client_id": "754616422456-nbe8gs1qrvo5hf5jnrsltjl9qfds4pj3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nipuneshop.androidapp",
+            "certificate_hash": "f7afdec18ed224c21c699c7ba5c9c053c20f943f"
+          }
+        },
+        {
+          "client_id": "754616422456-3o4u8hntt8lcspgoqmpk088b8nlp1qki.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBz58gZfvWDntpX8JBbg4IoRoPBQra1XZ8"
+          "current_key": "AIzaSyAx35Z53xqKBeyP9Y8Xb-UwRqct3MkNFOk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "600852578217-7rd0r4l153od29u6b9rpflrqfgbmc7ol.apps.googleusercontent.com",
+              "client_id": "754616422456-3o4u8hntt8lcspgoqmpk088b8nlp1qki.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

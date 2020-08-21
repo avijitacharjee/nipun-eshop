@@ -284,21 +284,25 @@
         </activity>
 
 
-        <activity
+        <!--<activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:label="@string/app_name" />
+            android:label="@string/app_name" />-->
 
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/global__accent" /> <!-- <service android:name=".utils.FirebaseInstanceIDService" android:stopWithTask="false"> -->
 
-        <service android:name="com.nipuneshop.androidapp.utils.FirebaseMessagingService">
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
             </intent-filter>
         </service>
-
         <activity android:name="com.nipuneshop.androidapp.ui.product.detail.ProductActivity" />
         <activity
             android:name="com.nipuneshop.androidapp.ui.comment.detail.CommentDetailActivity"

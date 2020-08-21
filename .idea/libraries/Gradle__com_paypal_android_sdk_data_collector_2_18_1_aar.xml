@@ -1,10 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.paypal.android.sdk:data-collector:2.18.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb56634d75c9db6c10da935936f0624e/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb56634d75c9db6c10da935936f0624e/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb56634d75c9db6c10da935936f0624e/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb56634d75c9db6c10da935936f0624e/jars/libs/paypal-data-collector-4.0.3.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45d2a3da103fd10d8a56dd6e0a581e39/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45d2a3da103fd10d8a56dd6e0a581e39/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45d2a3da103fd10d8a56dd6e0a581e39/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/45d2a3da103fd10d8a56dd6e0a581e39/jars/libs/paypal-data-collector-4.0.3.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

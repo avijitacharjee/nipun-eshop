@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.stripe:stripe-android:8.3.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32145b3abdbf132ed247766bac7ceb17/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf656bab8af2cff7fdfa8d5c032ce2a9/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32145b3abdbf132ed247766bac7ceb17/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32145b3abdbf132ed247766bac7ceb17/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/32145b3abdbf132ed247766bac7ceb17/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf656bab8af2cff7fdfa8d5c032ce2a9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf656bab8af2cff7fdfa8d5c032ce2a9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf656bab8af2cff7fdfa8d5c032ce2a9/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
