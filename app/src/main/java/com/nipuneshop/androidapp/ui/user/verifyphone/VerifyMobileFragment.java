@@ -117,7 +117,7 @@ public class VerifyMobileFragment extends PSFragment {
 
         @Override
         public void onVerificationFailed(FirebaseException e) {
-            Toast.makeText(getActivity(), e.getMessage(), Toast.LENGTH_LONG).show();
+            //Toast.makeText(getActivity(), e.getMessage(), Toast.LENGTH_LONG).show();
         }
 
         @Override
@@ -181,7 +181,7 @@ public class VerifyMobileFragment extends PSFragment {
                                 }
                             } catch (Exception e1) {
                                 // Error occurred while creating the File
-                                Toast.makeText(getContext(),e1.getMessage(),Toast.LENGTH_LONG).show();
+                                //Toast.makeText(getContext(),e1.getMessage(),Toast.LENGTH_LONG).show();
                             }
                         }
 

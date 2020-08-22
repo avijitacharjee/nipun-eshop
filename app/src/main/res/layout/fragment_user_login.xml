@@ -267,7 +267,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="24dp"
                 android:text="@string/register__check_option"
-                android:textColor="@color/text__primary"
+                android:textColor="@color/md_black_1000"
                 app:font='@{"normal"}'
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

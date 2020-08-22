@@ -11,10 +11,11 @@ android {
         applicationId "com.nipuneshop.androidapp"
         minSdkVersion 17
         targetSdkVersion 28
-        versionCode 18
-        versionName "2.5"
+        versionCode 19
+        versionName "2.6"
         multiDexEnabled true
     }
+    // v2.6 = 18
     // V2.5 = 17
     // V2.4.1 = 16
     // V2.4 = 15

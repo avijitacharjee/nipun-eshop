@@ -83,7 +83,7 @@
     <string name="login__password">Password</string>
     <string name="login__not_a_member_join_now">New here? Sign Up</string>
     <string name="login__forgot_your_password">Forgot password ?</string>
-    <string name="login__login">SignIn</string>
+    <string name="login__login">Sign In</string>
     <string name="login__welcome_title">Welcome To PS Market Place</string>
     <string name="login__choice_text">OR</string>
 
@@ -611,12 +611,12 @@
     <string name="verify_phone__informateion">You\'ve just received phone message containing OTP Code on</string>
     <string name="verify_phone__back_login">BACK TO LOGIN ?</string>
     <string name="verify_phone__title">Phone Verification</string>
-    <string name="login__with_phone">SigIn with Phone</string>
+    <string name="login__with_phone">Sig In with Phone</string>
     <string name="verify_phone_code">Enter OTP Code</string>
     <string name="error_message__blank_phone_no">Please input the phone number.</string>
 
     <!--Phone Login Text Hint-->
-    <string name="phone_login_phone_hint" translatable="false">+959121212121</string>
+    <string name="phone_login_phone_hint" translatable="false">+8801XXX-XXXXXX</string>
 
 </resources>
 

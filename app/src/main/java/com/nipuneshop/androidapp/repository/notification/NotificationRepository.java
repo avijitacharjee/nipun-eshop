@@ -1,5 +1,6 @@
 package com.nipuneshop.androidapp.repository.notification;
 
+import com.google.gson.Gson;
 import com.nipuneshop.androidapp.AppExecutors;
 import com.nipuneshop.androidapp.Config;
 import com.nipuneshop.androidapp.api.ApiResponse;
@@ -47,7 +48,7 @@ public class NotificationRepository extends PSRepository {
 
             @Override
             protected void saveCallResult(@NonNull List<Noti> itemList) {
-                Utils.psLog("SaveCallResult of getNotificationList.");
+                Utils.psLog("SaveCallResult of getNotificationList."+new Gson().toJson(itemList));
 
                 db.beginTransaction();
 
