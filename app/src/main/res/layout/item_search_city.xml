@@ -8,7 +8,7 @@
 
         <variable
             name="city"
-            type="com.nipuneshop.androidapp.viewobject.City" />
+            type="com.nipuneshop.androapp.viewobject.City" />
 
     </data>
 

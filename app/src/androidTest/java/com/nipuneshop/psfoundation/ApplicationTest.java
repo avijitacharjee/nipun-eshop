@@ -1,4 +1,4 @@
-package com.nipuneshop.androidapp;
+package com.nipuneshop.androapp;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

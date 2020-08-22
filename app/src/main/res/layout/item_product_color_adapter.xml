@@ -5,7 +5,7 @@
 
         <variable
             name="productColor"
-            type="com.nipuneshop.androidapp.viewobject.ProductColor" />
+            type="com.nipuneshop.androapp.viewobject.ProductColor" />
 
     </data>
 

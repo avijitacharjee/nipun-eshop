@@ -7,7 +7,7 @@
     <data>
         <variable
             name="productCollectionHeader"
-            type="com.nipuneshop.androidapp.viewobject.ProductCollectionHeader"/>
+            type="com.nipuneshop.androapp.viewobject.ProductCollectionHeader"/>
 
     </data>
 

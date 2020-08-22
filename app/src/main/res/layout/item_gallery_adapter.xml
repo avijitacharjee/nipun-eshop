@@ -10,7 +10,7 @@
         <import type="android.view.View" />
         <variable
             name="image"
-            type="com.nipuneshop.androidapp.viewobject.Image" />
+            type="com.nipuneshop.androapp.viewobject.Image" />
 
     </data>
 

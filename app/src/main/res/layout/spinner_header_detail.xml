@@ -8,7 +8,7 @@
 
         <variable
             name="headerDetailProduct"
-            type="com.nipuneshop.androidapp.viewobject.ProductAttributeDetail" />
+            type="com.nipuneshop.androapp.viewobject.ProductAttributeDetail" />
 
     </data>
 

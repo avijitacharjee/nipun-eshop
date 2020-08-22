@@ -4,7 +4,7 @@
 
     <data>
         <variable
-            name="productspec" type="com.nipuneshop.androidapp.viewobject.ProductSpecs" />
+            name="productspec" type="com.nipuneshop.androapp.viewobject.ProductSpecs" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

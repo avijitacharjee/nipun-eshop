@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.nipuneshop.androidapp">
+    package="com.nipuneshop.androapp">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -146,7 +146,7 @@
     </compatible-screens>
 
     <application
-        android:name="com.nipuneshop.androidapp.PSApp"
+        android:name="com.nipuneshop.androapp.PSApp"
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:hardwareAccelerated="true"
@@ -166,7 +166,7 @@
             android:required="false" />
 
         <activity
-            android:name="com.nipuneshop.androidapp.ui.apploading.AppLoadingActivity"
+            android:name="com.nipuneshop.androapp.ui.apploading.AppLoadingActivity"
             android:label="@string/app__app_name"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
@@ -183,83 +183,83 @@
         </activity>
 
         <activity
-            android:name="com.nipuneshop.androidapp.MainActivity"
+            android:name="com.nipuneshop.androapp.MainActivity"
             android:label="@string/app__app_name"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme"
             android:windowSoftInputMode="adjustPan">
         </activity>
-        <activity android:name="com.nipuneshop.androidapp.ui.category.CategoryListActivity"
+        <activity android:name="com.nipuneshop.androapp.ui.category.CategoryListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
 
-        <activity android:name="com.nipuneshop.androidapp.ui.rating.RatingListActivity"
+        <activity android:name="com.nipuneshop.androapp.ui.rating.RatingListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
 
         <activity
-            android:name="com.nipuneshop.androidapp.ui.user.ProfileEditActivity"
+            android:name="com.nipuneshop.androapp.ui.user.ProfileEditActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.transaction.list.TransactionListActivity"
+            android:name="com.nipuneshop.androapp.ui.transaction.list.TransactionListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.user.UserRegisterActivity"
+            android:name="com.nipuneshop.androapp.ui.user.UserRegisterActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.user.UserLoginActivity"
+            android:name="com.nipuneshop.androapp.ui.user.UserLoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.user.UserForgotPasswordActivity"
+            android:name="com.nipuneshop.androapp.ui.user.UserForgotPasswordActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.user.PasswordChangeActivity"
+            android:name="com.nipuneshop.androapp.ui.user.PasswordChangeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.product.filtering.FilteringActivity"
+            android:name="com.nipuneshop.androapp.ui.product.filtering.FilteringActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.notification.detail.NotificationActivity"
+            android:name="com.nipuneshop.androapp.ui.notification.detail.NotificationActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.transaction.detail.TransactionActivity"
+            android:name="com.nipuneshop.androapp.ui.transaction.detail.TransactionActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.checkout.CheckoutActivity"
+            android:name="com.nipuneshop.androapp.ui.checkout.CheckoutActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.setting.SettingActivity"
+            android:name="com.nipuneshop.androapp.ui.setting.SettingActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.setting.NotificationSettingActivity"
+            android:name="com.nipuneshop.androapp.ui.setting.NotificationSettingActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.setting.ProfileEditActivity"
+            android:name="com.nipuneshop.androapp.ui.setting.ProfileEditActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.setting.AppInfoActivity"
+            android:name="com.nipuneshop.androapp.ui.setting.AppInfoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.product.favourite.FavouriteListActivity"
+            android:name="com.nipuneshop.androapp.ui.product.favourite.FavouriteListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
 
-        <meta-data android:name="com.nipuneshop.androidapp.utils.CustomCachingGlideModule"
+        <meta-data android:name="com.nipuneshop.androapp.utils.CustomCachingGlideModule"
             android:value="AppGlideModule"/>
 
         <!--<meta-data
@@ -295,7 +295,7 @@
 
 
         <service
-            android:name=".MyService"
+            android:name="com.nipuneshop.androapp.MyService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -303,46 +303,46 @@
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
             </intent-filter>
         </service>
-        <activity android:name="com.nipuneshop.androidapp.ui.product.detail.ProductActivity" />
+        <activity android:name="com.nipuneshop.androapp.ui.product.detail.ProductActivity" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.comment.detail.CommentDetailActivity"
+            android:name="com.nipuneshop.androapp.ui.comment.detail.CommentDetailActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.notification.list.NotificationListActivity"
+            android:name="com.nipuneshop.androapp.ui.notification.list.NotificationListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.product.list.ProductListActivity"
+            android:name="com.nipuneshop.androapp.ui.product.list.ProductListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.comment.list.CommentListActivity"
+            android:name="com.nipuneshop.androapp.ui.comment.list.CommentListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.gallery.GalleryActivity"
+            android:name="com.nipuneshop.androapp.ui.gallery.GalleryActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.terms.TermsAndConditionsActivity"
+            android:name="com.nipuneshop.androapp.ui.terms.TermsAndConditionsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.gallery.detail.GalleryDetailActivity"
+            android:name="com.nipuneshop.androapp.ui.gallery.detail.GalleryDetailActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
-        <activity android:name="com.nipuneshop.androidapp.ui.basket.BasketListActivity" />
+        <activity android:name="com.nipuneshop.androapp.ui.basket.BasketListActivity" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.product.search.SearchByCategoryActivity"
+            android:name="com.nipuneshop.androapp.ui.product.search.SearchByCategoryActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
-            android:name="com.nipuneshop.androidapp.ui.product.history.UserHistoryListActivity"
+            android:name="com.nipuneshop.androapp.ui.product.history.UserHistoryListActivity"
             android:label="@string/title__activity_user_history_list"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
-        <activity android:name="com.nipuneshop.androidapp.ui.stripe.StripeActivity"
+        <activity android:name="com.nipuneshop.androapp.ui.stripe.StripeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
         <activity
@@ -357,28 +357,28 @@
                 <data android:scheme="${applicationId}.braintree" />
             </intent-filter>
         </activity>
-        <activity android:name="com.nipuneshop.androidapp.ui.collection.CollectionActivity"
+        <activity android:name="com.nipuneshop.androapp.ui.collection.CollectionActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
-        <activity android:name="com.nipuneshop.androidapp.ui.blog.list.BlogListActivity"
+        <activity android:name="com.nipuneshop.androapp.ui.blog.list.BlogListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
-        <activity android:name="com.nipuneshop.androidapp.ui.blog.detail.BlogDetailActivity"
+        <activity android:name="com.nipuneshop.androapp.ui.blog.detail.BlogDetailActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
-        <activity android:name="com.nipuneshop.androidapp.ui.forceupdate.ForceUpdateActivity"
+        <activity android:name="com.nipuneshop.androapp.ui.forceupdate.ForceUpdateActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
-        <activity android:name="com.nipuneshop.androidapp.ui.user.verifyemail.VerifyEmailActivity"
+        <activity android:name="com.nipuneshop.androapp.ui.user.verifyemail.VerifyEmailActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
-        <activity android:name="com.nipuneshop.androidapp.ui.privacyandpolicy.PrivacyPolicyActivity"
+        <activity android:name="com.nipuneshop.androapp.ui.privacyandpolicy.PrivacyPolicyActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
-        <activity android:name="com.nipuneshop.androidapp.ui.user.phonelogin.PhoneLoginActivity"
+        <activity android:name="com.nipuneshop.androapp.ui.user.phonelogin.PhoneLoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
-        <activity android:name="com.nipuneshop.androidapp.ui.user.verifyphone.VerifyMobileActivity"
+        <activity android:name="com.nipuneshop.androapp.ui.user.verifyphone.VerifyMobileActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.PSTheme" />
     </application>

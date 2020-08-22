@@ -5,9 +5,9 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.nipuneshop.androidapp.ui.gallery.detail.GalleryDetailFragment">
+        tools:context="com.nipuneshop.androapp.ui.gallery.detail.GalleryDetailFragment">
 
-        <com.nipuneshop.androidapp.utils.ExtendedViewPager
+        <com.nipuneshop.androapp.utils.ExtendedViewPager
             android:id="@+id/view_pager"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

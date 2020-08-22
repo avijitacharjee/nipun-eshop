@@ -5,7 +5,7 @@
 
         <variable
             name="productTab"
-            type="com.nipuneshop.androidapp.viewobject.holder.TabObject" />
+            type="com.nipuneshop.androapp.viewobject.holder.TabObject" />
 
     </data>
 

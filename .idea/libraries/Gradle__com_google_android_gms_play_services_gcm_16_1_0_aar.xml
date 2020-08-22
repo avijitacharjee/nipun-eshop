@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-gcm:16.1.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed1662d7c4b8250ff138f703ca1c591b/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed1662d7c4b8250ff138f703ca1c591b/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed1662d7c4b8250ff138f703ca1c591b/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf299dc833b562589494497857fca925/jetified-play-services-gcm-16.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf299dc833b562589494497857fca925/jetified-play-services-gcm-16.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf299dc833b562589494497857fca925/jetified-play-services-gcm-16.1.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-gcm/16.1.0/3fc4bd6081c4c48f007893a70c62b437afcb3607/play-services-gcm-16.1.0-javadoc.jar!/" />

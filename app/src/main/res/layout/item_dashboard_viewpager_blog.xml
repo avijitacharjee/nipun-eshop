@@ -8,7 +8,7 @@
 
         <variable
             name="blog"
-            type="com.nipuneshop.androidapp.viewobject.Blog" />
+            type="com.nipuneshop.androapp.viewobject.Blog" />
     </data>
 
 

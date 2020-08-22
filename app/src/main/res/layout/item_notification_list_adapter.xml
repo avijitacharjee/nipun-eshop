@@ -9,7 +9,7 @@
 
         <variable
             name="notification"
-            type="com.nipuneshop.androidapp.viewobject.Noti" />
+            type="com.nipuneshop.androapp.viewobject.Noti" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

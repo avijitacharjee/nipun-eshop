@@ -7,7 +7,7 @@
 
         <variable
             name="subcategory"
-            type="com.nipuneshop.androidapp.viewobject.SubCategory" />
+            type="com.nipuneshop.androapp.viewobject.SubCategory" />
 
     </data>
 

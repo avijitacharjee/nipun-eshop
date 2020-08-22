@@ -6,7 +6,7 @@
 
         <variable
             name="cat"
-            type="com.nipuneshop.androidapp.viewobject.Category" />
+            type="com.nipuneshop.androapp.viewobject.Category" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

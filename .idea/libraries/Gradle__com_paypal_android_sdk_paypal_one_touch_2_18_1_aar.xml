@@ -1,11 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.paypal.android.sdk:paypal-one-touch:2.18.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4143c220bad041b4e1e0f6270127237d/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4143c220bad041b4e1e0f6270127237d/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4143c220bad041b4e1e0f6270127237d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b717599e6e3dbb090bbd3774baacd48/jetified-paypal-one-touch-2.18.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b717599e6e3dbb090bbd3774baacd48/jetified-paypal-one-touch-2.18.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b717599e6e3dbb090bbd3774baacd48/jetified-paypal-one-touch-2.18.1/res" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.paypal.android.sdk/paypal-one-touch/2.18.1/ae036b8abc4b3d769ca46c9a09a29a6da6c9b4e/paypal-one-touch-2.18.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.paypal.android.sdk/paypal-one-touch/2.18.1/798c0189bf5f1a7f139d0776ae6ae90c73353999/paypal-one-touch-2.18.1-sources.jar!/" />
     </SOURCES>

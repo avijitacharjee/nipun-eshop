@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <data>
-        <variable name="headerproduct" type="com.nipuneshop.androidapp.viewobject.ProductAttributeHeader" />
+        <variable name="headerproduct" type="com.nipuneshop.androapp.viewobject.ProductAttributeHeader" />
 
     </data>
 

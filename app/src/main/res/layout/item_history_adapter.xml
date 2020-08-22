@@ -7,7 +7,7 @@
 
         <variable
             name="history"
-            type="com.nipuneshop.androidapp.viewobject.HistoryProduct" />
+            type="com.nipuneshop.androapp.viewobject.HistoryProduct" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

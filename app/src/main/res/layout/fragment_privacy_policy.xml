@@ -6,7 +6,7 @@
     <data>
         <variable
             name="aboutUs"
-            type="com.nipuneshop.androidapp.viewobject.AboutUs" />
+            type="com.nipuneshop.androapp.viewobject.AboutUs" />
     </data>
 
     <ScrollView

@@ -7,7 +7,7 @@
 
         <variable
             name="transactionDetail"
-            type="com.nipuneshop.androidapp.viewobject.TransactionObject" />
+            type="com.nipuneshop.androapp.viewobject.TransactionObject" />
     </data>
 
     <androidx.core.widget.NestedScrollView

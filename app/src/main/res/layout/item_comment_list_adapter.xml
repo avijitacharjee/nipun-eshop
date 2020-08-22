@@ -6,7 +6,7 @@
 
         <variable
             name="comment"
-            type="com.nipuneshop.androidapp.viewobject.Comment" />
+            type="com.nipuneshop.androapp.viewobject.Comment" />
 
     </data>
 
