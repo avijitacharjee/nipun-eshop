@@ -65,8 +65,17 @@ public class CheckoutFragment1 extends PSFragment implements DataBoundListAdapte
             ((CheckoutActivity) getActivity()).progressDialog.setCancelable(false);
         }
 
+        binding.get().card2FirstNameEditText.setText("abc");
+        binding.get().card2Address1EditText.setText("abc");
+        binding.get().card2Address2EditText.setText("abc");
+        binding.get().card2CityEditText.setText("abc");
+        binding.get().card2CompanyEditText.setText("abc");
+        binding.get().card2CountryEditText.setText("abc");
+        binding.get().card2EmailEditText.setText("abc@gmail.com");
+        binding.get().card2CountryEditText.setText("abc");
 
         if (userViewModel.user != null) {
+
             if (userViewModel.user.billingFirstName != null && !userViewModel.user.billingFirstName.equals("")) {
                 binding.get().card2FirstNameEditText.setText(this.userViewModel.user.billingFirstName);
             } else {
@@ -122,7 +131,6 @@ public class CheckoutFragment1 extends PSFragment implements DataBoundListAdapte
             if (userViewModel.user.userPhone != null && !userViewModel.user.userPhone.equals("")){
                 binding.get().userPhoneEditText.setText(this.userViewModel.user.userPhone);
             }
-
 
             //Shipping Address
 
@@ -202,6 +210,7 @@ public class CheckoutFragment1 extends PSFragment implements DataBoundListAdapte
                 navigationController.navigateToSearchActivityCategoryFragment(getActivity(), Constants.CITY, Constants.NO_DATA, Constants.NO_DATA, userViewModel.countryId, userViewModel.cityId);
             }
         });
+
     }
 
     @Override
@@ -386,7 +395,7 @@ public class CheckoutFragment1 extends PSFragment implements DataBoundListAdapte
     }
 
     boolean checkBillingAddressEditTextIsEmpty() {
-        return binding.get().card2Address1EditText.getText().toString().isEmpty();
+        return false || binding.get().card2Address1EditText.getText().toString().isEmpty();
     }
 
     boolean checkUserEmailEditTextIsEmpty(){

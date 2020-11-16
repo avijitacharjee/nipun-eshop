@@ -4,9 +4,9 @@
     <!-- Key to update -->
     <!--===============-->
 
-    <string name="facebook_app_id" translatable="false">713437499286290</string>
+    <string name="facebook_app_id" translatable="false">791290938296553</string>
 
-    <string name="fb_login_protocol_scheme" translatable="false">fb713437499286290</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb791290938296553</string>
 
     <string name="stripe_publish_key" translatable="false">pk_0000_000000000000000000000000</string>
 
@@ -611,7 +611,7 @@
     <string name="verify_phone__informateion">You\'ve just received phone message containing OTP Code on</string>
     <string name="verify_phone__back_login">BACK TO LOGIN ?</string>
     <string name="verify_phone__title">Phone Verification</string>
-    <string name="login__with_phone">Sig In with Phone</string>
+    <string name="login__with_phone">Sign In with Phone</string>
     <string name="verify_phone_code">Enter OTP Code</string>
     <string name="error_message__blank_phone_no">Please input the phone number.</string>
 

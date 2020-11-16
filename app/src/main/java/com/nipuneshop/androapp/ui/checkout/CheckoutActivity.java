@@ -104,7 +104,8 @@ public class CheckoutActivity extends PSAppCompactActivity {
                         psDialogMsg.showErrorDialog(getString(R.string.error_message__select_city), getString(R.string.app__ok));
                         psDialogMsg.show();
                         number--;
-                    }else if (((CheckoutFragment1)fragment).checkShippingAddressEditTextIsEmpty()) {
+                    }
+                    else if (((CheckoutFragment1)fragment).checkShippingAddressEditTextIsEmpty()) {
                         psDialogMsg.showErrorDialog(getString(R.string.shipping_address_one_error_message), getString(R.string.app__ok));
                         psDialogMsg.show();
                         number--;
@@ -120,8 +121,6 @@ public class CheckoutActivity extends PSAppCompactActivity {
                     else {
                         ((CheckoutFragment1) fragment).updateUserProfile();
                     }
-
-
                 } else if (number == 4) {
 
                     if (((CheckoutFragment3) fragment).binding.get().checkBox.isChecked()) {

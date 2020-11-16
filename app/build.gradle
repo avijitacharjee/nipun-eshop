@@ -4,17 +4,20 @@ apply plugin: 'com.google.gms.google-services'
 apply plugin: 'io.fabric'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
     buildToolsVersion '29.0.3'
 
     defaultConfig {
         applicationId "com.nipuneshop.androapp"
         minSdkVersion 17
-        targetSdkVersion 29
-        versionCode 20
-        versionName "2.7"
+        targetSdkVersion 30
+        versionCode 22
+        versionName "2.9"
         multiDexEnabled true
     }
+    // working on 3.0
+    // v2.9 = 22
+    // v2.8 = 21
     // v2.7 = 20
     // v2.6 = 18
     // V2.5 = 17
