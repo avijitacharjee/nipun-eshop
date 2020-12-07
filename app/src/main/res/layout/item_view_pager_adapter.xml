@@ -61,6 +61,7 @@
             android:id="@+id/bottomView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:visibility="invisible"
             android:background="@drawable/black_alpha_50"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
