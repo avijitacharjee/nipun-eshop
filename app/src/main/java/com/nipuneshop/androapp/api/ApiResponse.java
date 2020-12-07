@@ -55,7 +55,6 @@ public class ApiResponse<T> {
         } else {
             Utils.psLog("ApiResponse Something wrong.");
             String message = null;
-
             try {
                 ResponseBody responseBody = response.errorBody();
                 if(responseBody != null) {
@@ -68,10 +67,9 @@ public class ApiResponse<T> {
                         Utils.psErrorLog("JSON Parsing error.", e);
                     }
                 }
-
             } catch (NullPointerException ne) {
                 Utils.psErrorLog("Null Pointer Exception.", ne);
-            }catch (IOException ignored) {
+            } catch (IOException ignored) {
                 Utils.psErrorLog("error while parsing response", ignored);
             }
 

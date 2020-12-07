@@ -4,9 +4,13 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/433db4bb955704609a9e7f4036f2ac26/jetified-play-services-gass-17.2.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/433db4bb955704609a9e7f4036f2ac26/jetified-play-services-gass-17.2.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/433db4bb955704609a9e7f4036f2ac26/jetified-play-services-gass-17.2.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a163d5ec9167c012c4a3dcb9abf58473/jetified-play-services-gass-17.2.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a163d5ec9167c012c4a3dcb9abf58473/jetified-play-services-gass-17.2.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a163d5ec9167c012c4a3dcb9abf58473/jetified-play-services-gass-17.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f336fc67938d6d790e7906733db1c347/jetified-play-services-gass-17.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f336fc67938d6d790e7906733db1c347/jetified-play-services-gass-17.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f336fc67938d6d790e7906733db1c347/jetified-play-services-gass-17.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e519f79af8cef53475adc561767985ef/jetified-play-services-gass-17.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e519f79af8cef53475adc561767985ef/jetified-play-services-gass-17.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e519f79af8cef53475adc561767985ef/jetified-play-services-gass-17.2.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-gass/17.2.0/b884044d2f8732260837f470f4ed231a876cb2e3/play-services-gass-17.2.0-javadoc.jar!/" />
