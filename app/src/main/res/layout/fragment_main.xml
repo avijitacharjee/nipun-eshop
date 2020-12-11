@@ -82,10 +82,10 @@
                 <androidx.viewpager.widget.ViewPager
                     android:id="@+id/viewPager"
                     android:layout_width="0dp"
-                    android:layout_height="200dp"
+                    android:layout_height="135dp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
                     android:layout_marginTop="16dp"
+                    android:layout_marginRight="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/sliderHeaderTextView" />
@@ -99,7 +99,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginBottom="12dp"
-                    android:background="@drawable/rounded_corner_grey_shape"
+                    android:background="#00000000"
                     android:gravity="center"
                     android:orientation="horizontal"
                     android:paddingStart="@dimen/space_4"
@@ -413,6 +413,4 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 </layout>

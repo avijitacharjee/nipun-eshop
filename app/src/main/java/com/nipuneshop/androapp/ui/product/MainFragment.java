@@ -206,7 +206,7 @@ public class MainFragment extends PSFragment implements DataBoundListAdapter.Dif
                         dots[i].setImageDrawable(getResources().getDrawable(R.drawable.nonselecteditem_dot));
                     }
 
-                    dots[position].setImageDrawable(getResources().getDrawable(R.drawable.selecteditem_dot));
+                    dots[position].setImageDrawable(getResources().getDrawable(R.drawable.new_selected_item_dot));
                 }
             }
 
@@ -680,6 +680,8 @@ public class MainFragment extends PSFragment implements DataBoundListAdapter.Dif
                             break;
                     }
                 }
+                binding.get().sliderHeaderTextView.setVisibility(View.GONE);
+                binding.get().viewAllSliderTextView.setVisibility(View.GONE);
             });
         }
 
@@ -1221,7 +1223,7 @@ public class MainFragment extends PSFragment implements DataBoundListAdapter.Dif
                 binding.get().viewPagerCountDots.addView(dots[i], params);
             }
 
-            dots[0].setImageDrawable(getResources().getDrawable(R.drawable.selecteditem_dot));
+            dots[0].setImageDrawable(getResources().getDrawable(R.drawable.new_selected_item_dot));
 
         }
 
