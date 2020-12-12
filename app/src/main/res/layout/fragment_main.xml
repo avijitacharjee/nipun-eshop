@@ -70,19 +70,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/space_20"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="5dp"
                     android:text="@string/menu__latest_product"
                     android:textColor="@color/text__primary_dark"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/font_body_size"
                     android:visibility="visible"
                     app:font='@{"normal"}'
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/trending_Category_List" />
+                    app:layout_constraintTop_toBottomOf="@+id/trending_list" />
 
                 <androidx.viewpager.widget.ViewPager
                     android:id="@+id/viewPager"
                     android:layout_width="0dp"
-                    android:layout_height="135dp"
+                    android:layout_height="100dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginRight="20dp"
@@ -116,6 +116,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
+                    android:visibility="visible"
                     android:clipToPadding="false"
                     android:orientation="horizontal"
                     android:paddingStart="12dp"
@@ -124,32 +125,32 @@
                     app:layout_constraintHorizontal_bias="0.631"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/categoryTextView"
-                    app:spanCount="5" />
+                    app:spanCount="5"/>
 
                 <TextView
                     android:id="@+id/trendingTitleTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="24dp"
+                    android:layout_marginTop="5dp"
                     android:paddingStart="@dimen/space_20"
-                    android:text="@string/menu__trending_products"
+                    android:text="@string/menu_flash_sale"
                     android:textColor="@color/text__primary_dark"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/font_body_size"
                     android:visibility="visible"
                     app:font='@{"normal"}'
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/discount_list" />
+                    app:layout_constraintTop_toBottomOf="@+id/categoryIconList" />
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/discount_list"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="5dp"
                     android:clipToPadding="false"
                     android:orientation="horizontal"
                     android:paddingStart="@dimen/space_20"
                     android:paddingEnd="0dp"
-                    android:paddingBottom="@dimen/space_16"
+                    android:paddingBottom="0dp"
                     app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -164,6 +165,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_marginTop="8dp"
+                    android:visibility="gone"
                     android:layout_centerHorizontal="true"
                     app:adSize="SMART_BANNER"
                     app:adUnitId="@string/admob_banner_ads_key"
@@ -176,35 +178,35 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="5dp"
                     android:text="@string/menu__discount"
                     android:textColor="@color/text__primary_dark"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/font_body_size"
                     android:visibility="visible"
                     app:font='@{"normal"}'
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/adView" />
+                    app:layout_constraintTop_toBottomOf="@+id/product_list" />
 
                 <TextView
                     android:id="@+id/trendingCategoriesTitleTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/space_20"
-                    android:layout_marginTop="24dp"
+                    android:layout_marginTop="5dp"
                     android:text="@string/menu__trending_category"
                     android:textColor="@color/text__primary_dark"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/font_body_size"
                     android:visibility="visible"
                     app:font='@{"normal"}'
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/trending_list" />
+                    app:layout_constraintTop_toBottomOf="@+id/discount_list" />
 
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/product_list"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="5dp"
                     android:clipToPadding="false"
                     android:orientation="horizontal"
                     android:paddingStart="@dimen/space_20"
@@ -220,7 +222,7 @@
                     android:id="@+id/trending_list"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="5dp"
                     android:clipToPadding="false"
                     android:orientation="horizontal"
                     android:paddingStart="@dimen/space_20"
@@ -319,6 +321,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
+                    android:visibility="gone"
                     android:layout_centerHorizontal="true"
                     app:adSize="SMART_BANNER"
                     app:adUnitId="@string/admob_banner_ads_key"
@@ -330,27 +333,28 @@
                     android:id="@+id/collections"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:visibility="visible"
                     android:layout_marginBottom="8dp"
                     android:orientation="vertical"
                     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/adView2" />
+                    app:layout_constraintTop_toBottomOf="@+id/trending_Category_List" />
 
                 <TextView
                     android:id="@+id/categoryTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="32dp"
+                    android:layout_marginTop="5dp"
                     android:text="@string/menu__home_category_textView"
                     android:textColor="@color/text__primary_dark"
-                    android:textSize="@dimen/font_h7_size"
+                    android:textSize="@dimen/font_body_size"
                     android:visibility="visible"
                     app:font='@{"normal"}'
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/viewPagerCountDots" />
+                    app:layout_constraintTop_toBottomOf="@+id/viewPager" />
 
                 <TextView
                     android:id="@+id/categoryViewAllTextView"

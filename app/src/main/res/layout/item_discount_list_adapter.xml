@@ -14,14 +14,14 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
 
-        android:layout_width="190dp"
-        android:layout_height="320dp"
+        android:layout_width="@dimen/item_width"
+        android:layout_height="@dimen/item_height"
         android:background="@drawable/recycler_item_bg">
 
 
         <androidx.cardview.widget.CardView
             android:id="@+id/newsHolderCardView"
-            android:layout_width="190dp"
+            android:layout_width="@dimen/item_width"
             android:layout_height="0dp"
             android:layout_marginStart="2dp"
             android:layout_marginEnd="2dp"
@@ -38,13 +38,13 @@
             app:layout_constraintVertical_bias="1.0">
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="190dp"
+                android:layout_width="@dimen/item_width"
                 android:layout_height="match_parent">
 
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="0dp"
-                    android:layout_height="164dp"
+                    android:layout_height="@dimen/item_width"
                     android:contentDescription="@string/image_default__image"
                     android:scaleType="centerCrop"
                     app:imageUrl="@{product.defaultPhoto.imgPath}"
@@ -52,8 +52,21 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:srcCompat="@drawable/placeholder_image" />
-
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/imageView"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:text="@{product.code}"
+                    android:textColor="@color/text__primary"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    font='@{"normal"}'
+                    />
+                <TextView
+                    android:visibility="gone"
                     android:id="@+id/news_title_textView"
                     android:layout_width="0dp"
                     android:layout_height="38dp"
@@ -88,6 +101,7 @@
                     android:id="@+id/originalPriceTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:visibility="gone"
                     android:layout_marginStart="8dp"
                     android:textAlignment="viewStart"
                     android:textColor="@color/text__primary"
@@ -105,6 +119,7 @@
                     android:layout_marginStart="2dp"
                     android:textAlignment="viewStart"
                     android:textColor="@color/md_deep_orange_700"
+                    android:visibility="gone"
                     android:textSize="@dimen/font_title_size"
                     app:font='@{"normal"}'
                     app:layout_constraintBottom_toBottomOf="@+id/currencyTextView"
@@ -121,6 +136,7 @@
                     android:layout_marginTop="8dp"
                     android:text="@{product.currencySymbol}"
                     android:textAlignment="viewStart"
+                    android:visibility="gone"
                     android:textColor="@color/md_deep_orange_700"
                     android:textSize="@dimen/font_title_size"
                     app:font='@{"normal"}'
@@ -163,6 +179,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
+                    android:visibility="gone"
                     android:theme="@style/RatingBar"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/currencyTextView" />
@@ -171,6 +188,7 @@
                     android:id="@+id/ratingBarTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:visibility="gone"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="4dp"
                     android:textColor="@color/text__primary_light"

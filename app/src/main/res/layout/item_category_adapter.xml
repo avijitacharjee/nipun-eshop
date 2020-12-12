@@ -15,8 +15,9 @@
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_width="@dimen/item_width"
+        android:layout_margin="5dp"
+        android:layout_height="@dimen/item_height"
         android:background="@drawable/recycler_item_bg">
 
         <androidx.cardview.widget.CardView

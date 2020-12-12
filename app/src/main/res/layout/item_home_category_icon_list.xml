@@ -1,18 +1,14 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-
     <data>
-
         <variable
             name="cat"
             type="com.nipuneshop.androapp.viewobject.Category" />
     </data>
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-
         <ImageView
             android:id="@+id/iconImageView"
             android:layout_width="50dp"
@@ -30,7 +26,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:srcCompat="@drawable/app_icon" />
-
         <TextView
             android:id="@+id/nameTextView"
             android:layout_width="0dp"
@@ -45,6 +40,5 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/iconImageView" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -52,5 +52,7 @@
     <dimen name="space_96">96dp</dimen>
     <dimen name="space_100">100dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="item_width">90dp</dimen>
+    <dimen name="item_height">110dp</dimen>
 
 </resources>

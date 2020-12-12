@@ -17,8 +17,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/placeHolderCardView"
-            android:layout_width="190dp"
-            android:layout_height="220dp"
+            android:layout_width="@dimen/item_width"
+            android:layout_height="@dimen/item_width"
             android:clipToPadding="false"
             app:cardCornerRadius="@dimen/space_4"
             app:cardUseCompatPadding="true"
@@ -49,7 +49,7 @@
                 <View
                     android:id="@+id/view52"
                     android:layout_width="0dp"
-                    android:layout_height="264dp"
+                    android:layout_height="@dimen/item_height"
                     android:background="@drawable/black_alpha_50"
                     app:layout_constraintBottom_toBottomOf="@+id/itemImageView"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -84,6 +84,7 @@
                     android:layout_marginBottom="8dp"
                     android:adjustViewBounds="false"
                     android:baselineAlignBottom="false"
+                    android:visibility="gone"
                     android:contentDescription="@string/image_default__image"
                     android:scaleType="centerCrop"
                     app:imageCircleUrl="@{category.defaultIcon.imgPath}"

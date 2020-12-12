@@ -12,14 +12,14 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
 
-        android:layout_width="190dp"
-        android:layout_height="320dp"
+        android:layout_width="@dimen/item_width"
+        android:layout_height="@dimen/item_height"
         android:background="@drawable/recycler_item_bg">
 
 
         <androidx.cardview.widget.CardView
             android:id="@+id/newsHolderCardView"
-            android:layout_width="190dp"
+            android:layout_width="@dimen/item_width"
             android:layout_height="match_parent"
             android:layout_marginStart="2dp"
             android:layout_marginEnd="2dp"
@@ -35,7 +35,7 @@
             app:layout_constraintVertical_bias="1.0">
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="190dp"
+                android:layout_width="@dimen/item_width"
                 android:layout_height="match_parent">
 
                 <ImageView
@@ -52,14 +52,14 @@
 
                 <TextView
                     android:id="@+id/textView26"
-                    android:layout_width="161dp"
+                    android:layout_width="@dimen/item_width"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginBottom="32dp"
                     android:lineSpacingExtra="4sp"
                     android:text="@string/menu__home_discount_view_all"
-                    android:textAlignment="viewStart"
+                    android:gravity="bottom"
                     android:textColor="@color/button__primary_text"
                     android:textSize="18sp"
                     app:font='@{"normal"}'
