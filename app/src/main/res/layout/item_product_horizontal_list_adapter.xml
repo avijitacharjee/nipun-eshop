@@ -61,6 +61,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     android:text="@{product.code}"
                     android:textColor="@color/text__primary"
+                    tools:text="@tools:sample/us_zipcodes"
                     android:textSize="12sp"
                     android:textAlignment="center"
                     font='@{"normal"}'

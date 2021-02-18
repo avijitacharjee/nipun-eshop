@@ -10,6 +10,15 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06ffd9e16e305f473fe050ee1224f795/jetified-iconics-core-2.9.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06ffd9e16e305f473fe050ee1224f795/jetified-iconics-core-2.9.1/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06ffd9e16e305f473fe050ee1224f795/jetified-iconics-core-2.9.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db93a04272eb7c6698ef5325ee238eaa/jetified-iconics-core-2.9.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db93a04272eb7c6698ef5325ee238eaa/jetified-iconics-core-2.9.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db93a04272eb7c6698ef5325ee238eaa/jetified-iconics-core-2.9.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a2cc78e0294e1357d95fa83e978b4fe/jetified-iconics-core-2.9.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a2cc78e0294e1357d95fa83e978b4fe/jetified-iconics-core-2.9.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a2cc78e0294e1357d95fa83e978b4fe/jetified-iconics-core-2.9.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7305ad98cf9f79526c4618cf93ce1014/jetified-iconics-core-2.9.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7305ad98cf9f79526c4618cf93ce1014/jetified-iconics-core-2.9.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7305ad98cf9f79526c4618cf93ce1014/jetified-iconics-core-2.9.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/iconics-core/2.9.1/501821ddf828537db3cb79a4412002b56d702252/iconics-core-2.9.1-javadoc.jar!/" />

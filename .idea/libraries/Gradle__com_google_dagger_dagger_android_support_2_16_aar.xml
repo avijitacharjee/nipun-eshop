@@ -11,6 +11,15 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3e5a20a76bd5054e1ada867a2a7a137/jetified-dagger-android-support-2.16/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3e5a20a76bd5054e1ada867a2a7a137/jetified-dagger-android-support-2.16/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3e5a20a76bd5054e1ada867a2a7a137/jetified-dagger-android-support-2.16/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/654d37d81069b30722c69d0e69363b73/jetified-dagger-android-support-2.16/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/654d37d81069b30722c69d0e69363b73/jetified-dagger-android-support-2.16/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/654d37d81069b30722c69d0e69363b73/jetified-dagger-android-support-2.16/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50df8342ee0a65fb5dfa3812d8e92abb/jetified-dagger-android-support-2.16/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50df8342ee0a65fb5dfa3812d8e92abb/jetified-dagger-android-support-2.16/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50df8342ee0a65fb5dfa3812d8e92abb/jetified-dagger-android-support-2.16/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/625e07abd907c0e6358306a808a3b508/jetified-dagger-android-support-2.16/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/625e07abd907c0e6358306a808a3b508/jetified-dagger-android-support-2.16/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/625e07abd907c0e6358306a808a3b508/jetified-dagger-android-support-2.16/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-android-support/2.16/76f188dac223040df5fc22889800de606529745e/dagger-android-support-2.16-javadoc.jar!/" />

@@ -109,8 +109,8 @@ public class ProductHorizontalListAdapter extends DataBoundListAdapter<Product, 
             binding.discountTextView.setVisibility(View.GONE);
         } else {
             binding.originalPriceTextView.setPaintFlags(binding.originalPriceTextView.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
-            binding.originalPriceTextView.setVisibility(View.VISIBLE);
-            binding.discountTextView.setVisibility(View.VISIBLE);
+            //binding.originalPriceTextView.setVisibility(View.VISIBLE);
+            //binding.discountTextView.setVisibility(View.VISIBLE);
             int discountValue = (int) product.discountPercent;
             String discountValueStr = "-" + discountValue + "%";
             binding.discountTextView.setText(discountValueStr);
