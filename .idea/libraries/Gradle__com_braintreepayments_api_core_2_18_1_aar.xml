@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.braintreepayments.api:core:2.18.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83df4ccf7337a2ee33e9f3cd1c46f100/jetified-core-2.18.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83df4ccf7337a2ee33e9f3cd1c46f100/jetified-core-2.18.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83df4ccf7337a2ee33e9f3cd1c46f100/jetified-core-2.18.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3a26fb7413dc6e0965a9838ddfd6500/jetified-core-2.18.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3a26fb7413dc6e0965a9838ddfd6500/jetified-core-2.18.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3a26fb7413dc6e0965a9838ddfd6500/jetified-core-2.18.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.api/core/2.18.1/b22632c920938db3687bf564e2f6d58d200cf4f6/core-2.18.1-javadoc.jar!/" />
