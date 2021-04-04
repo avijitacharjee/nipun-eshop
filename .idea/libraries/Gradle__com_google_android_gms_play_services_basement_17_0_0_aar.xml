@@ -4,6 +4,12 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4b9c307df3225757d90a8ef959e7254d/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4b9c307df3225757d90a8ef959e7254d/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4b9c307df3225757d90a8ef959e7254d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9717cc5674c97167cc692cdf0ff1e87/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9717cc5674c97167cc692cdf0ff1e87/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a9717cc5674c97167cc692cdf0ff1e87/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/964325b7548fdda100be7575bd49942b/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/964325b7548fdda100be7575bd49942b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/964325b7548fdda100be7575bd49942b/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-basement/17.0.0/4faccf8c10bad282388a4067b8ef53d8476bbbc8/play-services-basement-17.0.0-javadoc.jar!/" />

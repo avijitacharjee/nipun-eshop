@@ -4,8 +4,16 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a69689d0b74e7513cb9dbc52a7df91e/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a69689d0b74e7513cb9dbc52a7df91e/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4a69689d0b74e7513cb9dbc52a7df91e/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/559cafbf063d532da5ae024c9f18bb4d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/559cafbf063d532da5ae024c9f18bb4d/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/559cafbf063d532da5ae024c9f18bb4d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fc5f5b142344d7e991091052f72c9ec/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fc5f5b142344d7e991091052f72c9ec/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fc5f5b142344d7e991091052f72c9ec/jars/classes.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments/browser-switch/0.1.7/789de4c4450a4613a59a2b4fa8aa241df2df2902/browser-switch-0.1.7-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments/browser-switch/0.1.7/743c7868e7e7e6f9136263e7cf4a45613d1f9f41/browser-switch-0.1.7-sources.jar!/" />
     </SOURCES>

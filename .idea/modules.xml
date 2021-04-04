@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="nipuneshop.com/app" />
-      <module fileurl="file://$PROJECT_DIR$/nipuneshop.com.iml" filepath="$PROJECT_DIR$/nipuneshop.com.iml" group="nipuneshop.com" />
+      <module fileurl="file://$PROJECT_DIR$/nipuneshop.com.iml" filepath="$PROJECT_DIR$/nipuneshop.com.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/nipuneshop.com.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/nipuneshop.com.app.iml" />
     </modules>
   </component>
 </project>

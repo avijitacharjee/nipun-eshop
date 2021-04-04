@@ -4,8 +4,16 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4143c220bad041b4e1e0f6270127237d/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4143c220bad041b4e1e0f6270127237d/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4143c220bad041b4e1e0f6270127237d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5e84cd9a6c057eefa8b02ddadd9b1f8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5e84cd9a6c057eefa8b02ddadd9b1f8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5e84cd9a6c057eefa8b02ddadd9b1f8/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0904909308ffbc49c19da1cf5d14494/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0904909308ffbc49c19da1cf5d14494/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0904909308ffbc49c19da1cf5d14494/jars/classes.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.paypal.android.sdk/paypal-one-touch/2.18.1/ae036b8abc4b3d769ca46c9a09a29a6da6c9b4e/paypal-one-touch-2.18.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.paypal.android.sdk/paypal-one-touch/2.18.1/798c0189bf5f1a7f139d0776ae6ae90c73353999/paypal-one-touch-2.18.1-sources.jar!/" />
     </SOURCES>

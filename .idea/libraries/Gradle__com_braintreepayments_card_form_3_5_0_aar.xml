@@ -2,13 +2,23 @@
   <library name="Gradle: com.braintreepayments:card-form:3.5.0@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f77dcbdc234e2bae2edd85d2f2143c10/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0430e428eb5b0d611701d429415abad/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a6daf94a9f7c019e28365698fe363e04/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f77dcbdc234e2bae2edd85d2f2143c10/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f77dcbdc234e2bae2edd85d2f2143c10/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f77dcbdc234e2bae2edd85d2f2143c10/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0430e428eb5b0d611701d429415abad/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0430e428eb5b0d611701d429415abad/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0430e428eb5b0d611701d429415abad/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a6daf94a9f7c019e28365698fe363e04/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a6daf94a9f7c019e28365698fe363e04/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a6daf94a9f7c019e28365698fe363e04/jars/classes.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments/card-form/3.5.0/84fcf841b48181dd311bdea66c4f2c5dfb12e536/card-form-3.5.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments/card-form/3.5.0/3b299b690eb088d9dee25d4897517477765fce23/card-form-3.5.0-sources.jar!/" />
     </SOURCES>

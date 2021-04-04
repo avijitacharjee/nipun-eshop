@@ -2,13 +2,23 @@
   <library name="Gradle: com.braintreepayments.api:drop-in:3.7.1@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3bab373c5564830de4e7074f9526293/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5a339615fe411f2dc0f0fd1f365edc9/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42dd0ac1aa0c570192452376790b0ee5/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3bab373c5564830de4e7074f9526293/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3bab373c5564830de4e7074f9526293/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3bab373c5564830de4e7074f9526293/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5a339615fe411f2dc0f0fd1f365edc9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5a339615fe411f2dc0f0fd1f365edc9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5a339615fe411f2dc0f0fd1f365edc9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42dd0ac1aa0c570192452376790b0ee5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42dd0ac1aa0c570192452376790b0ee5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42dd0ac1aa0c570192452376790b0ee5/AndroidManifest.xml" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.api/drop-in/3.7.1/7cb198c4a0c18bb638a110db3d6f4e98a6b94e2e/drop-in-3.7.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.api/drop-in/3.7.1/95651400cfd151ab1131998d9e0fcf34002c2789/drop-in-3.7.1-sources.jar!/" />
     </SOURCES>

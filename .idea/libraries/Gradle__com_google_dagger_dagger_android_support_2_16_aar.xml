@@ -4,8 +4,16 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9a85aaf1762b9fe4099bd3a854d75d8f/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9a85aaf1762b9fe4099bd3a854d75d8f/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9a85aaf1762b9fe4099bd3a854d75d8f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2bf5208645c401dbd5433518716a271/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2bf5208645c401dbd5433518716a271/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c2bf5208645c401dbd5433518716a271/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58dc8293f3f9d140247d9d9f0253e76e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58dc8293f3f9d140247d9d9f0253e76e/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58dc8293f3f9d140247d9d9f0253e76e/AndroidManifest.xml" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-android-support/2.16/76f188dac223040df5fc22889800de606529745e/dagger-android-support-2.16-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-android-support/2.16/f97845cd162f1ac89cbedadb33179c9aed0e4742/dagger-android-support-2.16-sources.jar!/" />
     </SOURCES>

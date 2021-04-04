@@ -2,13 +2,23 @@
   <library name="Gradle: com.stripe:stripe-android:8.3.0@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf656bab8af2cff7fdfa8d5c032ce2a9/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e24b92ea0ad9e22832061548cc9b8920/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7392b371e0eb17bd6b61e84b6570a49/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf656bab8af2cff7fdfa8d5c032ce2a9/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf656bab8af2cff7fdfa8d5c032ce2a9/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf656bab8af2cff7fdfa8d5c032ce2a9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e24b92ea0ad9e22832061548cc9b8920/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e24b92ea0ad9e22832061548cc9b8920/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e24b92ea0ad9e22832061548cc9b8920/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7392b371e0eb17bd6b61e84b6570a49/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7392b371e0eb17bd6b61e84b6570a49/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7392b371e0eb17bd6b61e84b6570a49/jars/classes.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.stripe/stripe-android/8.3.0/ebc87d2c5c690cedc2941223914ec71bc2d37dfb/stripe-android-8.3.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.stripe/stripe-android/8.3.0/4f63c9193c59d996b68a7caecc1160058eb0829/stripe-android-8.3.0-sources.jar!/" />
     </SOURCES>
