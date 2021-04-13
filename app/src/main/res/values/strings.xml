@@ -45,7 +45,7 @@
     <string name="image_default__image">Default Image</string>
 
     <!-- App General -->
-    <string name="app__app_name">Nipun Eshop</string>
+    <string name="app__app_name">V3.0 alpha</string>
     <string name="app__ok">OK</string>
     <string name="app__cancel">Cancel</string>
     <string name="app__drawer_open">Drawer Open</string>

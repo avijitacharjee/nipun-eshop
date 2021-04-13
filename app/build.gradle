@@ -12,7 +12,7 @@ android {
         minSdkVersion 17
         targetSdkVersion 30
         versionCode 22
-        versionName "2.9"
+        versionName "3.0"
         multiDexEnabled true
     }
     // working on 3.0

@@ -11,6 +11,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6a9a0a64e343745610ec5154ffbeeef4/jetified-firebase-iid-18.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6a9a0a64e343745610ec5154ffbeeef4/jetified-firebase-iid-18.0.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6a9a0a64e343745610ec5154ffbeeef4/jetified-firebase-iid-18.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/338d192d0550aab034a165cfa1519a63/jetified-firebase-iid-18.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/338d192d0550aab034a165cfa1519a63/jetified-firebase-iid-18.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/338d192d0550aab034a165cfa1519a63/jetified-firebase-iid-18.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-iid/18.0.0/637ae0b7956d26ffe9a6b34c65c23a3e35453b4a/firebase-iid-18.0.0-javadoc.jar!/" />
